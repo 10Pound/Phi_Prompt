@@ -304,7 +304,7 @@ void msg_lcd(char* msg_line)
 /**
  * \details Seeks previous line in a long message stored in SRAM. This seems easy until you start adding \n and \t etc. into the picture.
  * \param para This is the phi_prompt struct to carry information between callers and functions.
- * This function assumes the long message position has been always saught properly. Any improper movement of the long message pointer could produce unpredictable results.
+ * This function assumes the long message position has been always sought properly. Any improper movement of the long message pointer could produce unpredictable results.
  * If you are not interested in the inner working of this library, use text_area instead.
  * Return values are updated throught the struct.
  */
@@ -338,7 +338,7 @@ void prev_line(phi_prompt_struct* para)
 /**
  * \details Seeks next line in a long message stored in SRAM. This seems easy until you start adding \n and \t etc. into the picture.
  * \param para This is the phi_prompt struct to carry information between callers and functions.
- * This function assumes the long message position has been always saught properly. Any improper movement of the long message pointer could produce unpredictable results.
+ * This function assumes the long message position has been always sought properly. Any improper movement of the long message pointer could produce unpredictable results.
  * If you are not interested in the inner working of this library, use text_area instead.
  * Return values are updated throught the struct.
  */
@@ -364,7 +364,7 @@ void next_line(phi_prompt_struct* para)
 /**
  * \details Seeks previous line in a long message stored in PROGMEM. This seems easy until you start adding \n and \t etc. into the picture.
  * \param para This is the phi_prompt struct to carry information between callers and functions.
- * This function assumes the long message position has been always saught properly. Any improper movement of the long message pointer could produce unpredictable results.
+ * This function assumes the long message position has been always sought properly. Any improper movement of the long message pointer could produce unpredictable results.
  * If you are not interested in the inner working of this library, use text_area instead.
  * Return values are updated throught the struct.
  */
@@ -398,7 +398,7 @@ void prev_line_P(phi_prompt_struct* para)
 /**
  * \details Seeks next line in a long message stored in PROGMEM. This seems easy until you start adding \n and \t etc. into the picture.
  * \param para This is the phi_prompt struct to carry information between callers and functions.
- * This function assumes the long message position has been always saught properly. Any improper movement of the long message pointer could produce unpredictable results.
+ * This function assumes the long message position has been always sought properly. Any improper movement of the long message pointer could produce unpredictable results.
  * If you are not interested in the inner working of this library, use text_area instead.
  * Return values are updated throught the struct.
  */
